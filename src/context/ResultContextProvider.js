@@ -19,7 +19,7 @@ const getResults = async (type) => {
     const response = await fetch(`${baseUrl}${type}`, {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '9e10dd1f93mshf45cdfb73e4eb8cp1b77b5jsn222dff70f9e4',
+            'X-RapidAPI-Key': 'Api_key',
             'X-RapidAPI-Host': 'google-search72.p.rapidapi.com'
           }
     })
